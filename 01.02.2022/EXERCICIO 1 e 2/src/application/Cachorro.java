@@ -13,7 +13,12 @@ public class Cachorro extends Animal{
 		this.acao = acao;
 	}
 	
-	
+	@Override
+	public void emitirSom()
+	{ 
+		System.out.println("Au au au");
+	}
+
 		
 
 	public String getMove() {

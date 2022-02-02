@@ -1,6 +1,6 @@
 package application;
 
-public class Animal {
+public abstract class Animal {
 	
 	protected String nome;
 	protected int idade;
@@ -15,10 +15,8 @@ public class Animal {
 		
 	}
 	
-	public void emitirSom()
-	{ 
-		
-	}
+	abstract public void emitirSom();
+	
 
 	public String getNome() {
 		return nome;

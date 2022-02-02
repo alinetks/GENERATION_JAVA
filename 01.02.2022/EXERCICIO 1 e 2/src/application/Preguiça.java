@@ -14,6 +14,11 @@ public class Preguiça extends Animal{
 		this.açao = açao;
 	}
 
+	@Override
+	public void emitirSom()
+	{ 
+		System.out.println("Zzzzzzzz...");
+	}
 	
 	
 

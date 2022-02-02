@@ -12,6 +12,12 @@ public class Cavalo extends Animal{
 		this.move = move;
 		this.açao = açao;
 	}	
+	
+	@Override
+	public void emitirSom()
+	{ 
+		System.out.println("In rin rin rin ");
+	}
 
 	
 
